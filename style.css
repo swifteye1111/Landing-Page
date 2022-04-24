@@ -45,6 +45,11 @@ ul {
 .sign-up-button {
     background-color: #3882F6;
     color: white;
+    width: 60px;
+    border-radius: 5px;
+    text-align: center;
+    padding: 5px 20px;
+    font-weight: bold;
 }
 
 .hero-image {
