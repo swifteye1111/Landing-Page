@@ -1,0 +1,1 @@
+This Odin project is about setting up a landing page using the CSS tools studied so far in TOP, including Flexbox.
