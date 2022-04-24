@@ -4,16 +4,18 @@
 
 body {
     background-color: #1F2937;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 #header-logo {
     font-size: 24px;
     color: #F9FAF8;
     font-weight: bold;
-    
 }
 
-.nav-bar {
+.nav-bar, .hero-text-secondary {
     font-size: 18px;
     color: #E5E7EB;
 }
@@ -28,4 +30,33 @@ ul {
     display: flex;
     align-items: center;
     justify-content: space-between;
+}
+
+.subheader {
+    display: flex;
+}
+
+.hero-text-main {
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: bolder;
+}
+
+.sign-up-button {
+    background-color: #3882F6;
+    color: white;
+}
+
+.hero-image {
+    color: #EFF0F1;
+    background-color: #6D747D;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 600px;
+}
+
+.hero {
+    margin: 0 80px;
 }
