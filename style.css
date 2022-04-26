@@ -7,6 +7,9 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    align-items: center;
+    background-color: #1F2937;
+
 }
 
 #header-logo {
@@ -77,4 +80,5 @@ ul {
     display: flex;
     flex-direction: column;
     background-color: #1F2937;
+    width: 80%;
 }
