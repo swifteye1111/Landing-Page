@@ -3,12 +3,11 @@
 }
 
 body {
-    background-color: black;
     display: flex;
     flex-direction: column;
     align-items: center;
     background-color: #1F2937;
-    width: 100vws;
+    width: 100vw;
 }
 
 #header-logo {
@@ -126,13 +125,13 @@ ul {
 }
 
 .quote-box {
+    background-color: #E5E7EB;
     display: flex;
     flex-direction: column;
-    background-color: #E5E7EB;
-    width: 100%;
     align-items: center;
     gap: 20px;
-    padding: 60px 0px;
+    padding: 60px 5%;
+    width: 100%;
 }
 
 .quote {
@@ -140,7 +139,7 @@ ul {
     font-size: 36px;
     font-style:italic;
     font-weight: lighter;
-    width: 50%;
+    margin: 0 20%;
 }
 
 .attribution {
@@ -148,4 +147,35 @@ ul {
     font-size: 18px;
     width: 50%;
     text-align: end;
+}
+
+.action-section {
+    display: flex;
+    align-items: center;
+    padding: 40px;
+
+}
+
+.action-box {
+    background-color: #3882F6;
+    border-radius: 2%;
+    color:#F9FAF8;
+    padding: 30px;
+    width: 80%;
+}
+
+.action-left {
+
+}
+
+.action-header {
+
+}
+
+.action-text {
+
+}
+
+.action-right {
+
 }
