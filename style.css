@@ -71,7 +71,7 @@ ul {
     justify-content: center;
     text-align: center;
     width: 600px;
-    margin: 5px 0 5px 5px;
+    margin: 5px 0 5px 20px;
     height: 150px;
 }
 
@@ -103,7 +103,7 @@ ul {
     display: flex;
     background-color: white;
     gap: 40px;
-    margin-bottom: 40px;
+    margin-bottom: 60px;
 }
 
 .img-box {
@@ -123,4 +123,29 @@ ul {
 .caption {
     text-align: center;
     max-width: 120px;
+}
+
+.quote-box {
+    display: flex;
+    flex-direction: column;
+    background-color: #E5E7EB;
+    width: 100%;
+    align-items: center;
+    gap: 20px;
+    padding: 60px 0px;
+}
+
+.quote {
+    color: #1F2937;
+    font-size: 36px;
+    font-style:italic;
+    font-weight: lighter;
+    width: 50%;
+}
+
+.attribution {
+    font-weight: bolder;
+    font-size: 18px;
+    width: 50%;
+    text-align: end;
 }
