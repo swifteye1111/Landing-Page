@@ -54,7 +54,7 @@ ul {
 
 .sign-up-button {
     background-color: #3882F6;
-    color: white;
+    color: #F9FAF8;
     width: 60px;
     border-radius: 5px;
     text-align: center;
@@ -83,7 +83,7 @@ ul {
 }
 
 .info {
-    background-color: white;
+    background-color: #F9FAF8;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -100,7 +100,7 @@ ul {
 
 .images-and-captions {
     display: flex;
-    background-color: white;
+    background-color: #F9FAF8;
     gap: 40px;
     margin-bottom: 60px;
 }
@@ -152,30 +152,41 @@ ul {
 .action-section {
     display: flex;
     align-items: center;
+    justify-content: center;
     padding: 40px;
-
+    background-color: #F9FAF8;
+    width: 100%;
 }
 
 .action-box {
     background-color: #3882F6;
-    border-radius: 2%;
+    border-radius: 8px;
     color:#F9FAF8;
-    padding: 30px;
+    padding: 30px 60px;
     width: 80%;
+    max-width: 600px;
+    display: flex;
+    justify-content: space-between;
 }
 
 .action-left {
-
+    
 }
 
 .action-header {
-
-}
-
-.action-text {
-
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 4px;
 }
 
 .action-right {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
+.action-button {
+    border: 2px solid #F9FAF8;
+    border-radius: 10%;
+    padding: 4px 12px;
 }
