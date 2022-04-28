@@ -103,6 +103,7 @@ ul {
     background-color: #F9FAF8;
     gap: 40px;
     margin-bottom: 60px;
+    flex-wrap: wrap;
 }
 
 .img-box {
@@ -167,10 +168,6 @@ ul {
     max-width: 600px;
     display: flex;
     justify-content: space-between;
-}
-
-.action-left {
-    
 }
 
 .action-header {
