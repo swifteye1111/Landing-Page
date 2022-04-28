@@ -190,3 +190,12 @@ ul {
     border-radius: 10%;
     padding: 4px 12px;
 }
+
+.footer {
+    background-color: #1F2937;
+    color: #F9FAF8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
